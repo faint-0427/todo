@@ -11,7 +11,7 @@ const mockdata = [
 
 function App() {
   const parsedData = JSON.parse(localStorage.getItem("todos"));
-  const [todos, setTodos] = useState(parsedData || "") ;
+  const [todos, setTodos] = useState(parsedData || []) ;
   const [content, setContent] = useState("");
 
   localStorage.setItem("todos", JSON.stringify(todos)); //[stringify] 문자를 보여주는 것 
