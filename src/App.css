@@ -1,0 +1,9 @@
+#wrap{  display: flex;justify-content: center;}
+.inner{ display: grid ; gap: 15px; border: 1px solid #3366ff; width: 500px; border-radius: 10px;padding: 10px;}
+h1{color: #fff; text-align: center; font-size: 25px; background: linear-gradient(to right,#3566ff,#9866ff); padding: 10px 0; border-radius: 10px; }
+.add{display: grid; grid-template-columns:  auto 50px; gap: 10px;}
+.add input{font-size: 18px ; border: 1px solid #ccc; padding: 10px;border-radius: 10px; }
+.add button{background: #6666ff url(./assets/plus.svg) no-repeat center; font-size: 0; border: 0; border-radius: 10px; cursor: pointer;}
+
+.list .item{display: grid; grid-template-columns: auto 30px; background: #eee;padding: 15px;  border-top: 1px solid #ccc; gap: 10px;} 
+.list .item button{ border: none; background: url(./assets/del.svg) no-repeat center; font-size: 0 ; cursor: pointer;}
